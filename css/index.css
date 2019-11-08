@@ -160,6 +160,32 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  background: #F6F6F6;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navigation h1 {
+  padding: 10px 0;
+  font-size: 4rem;
+}
+.navigation nav {
+  padding: 11px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navigation nav a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+}
+.navigation nav a:hover {
+  color: #5E6164;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +195,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro .header-img {
+  display: flex;
+  justify-content: center;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +244,21 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  color: #F6F7F8;
+  background: #22283A;
+  width: 105px;
+  font-size: 1.8rem;
+  text-align: center;
+  border-radius: 5px;
+  padding: 7px;
+  border: 2px solid #22283A;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283A;
+  background: #F6F7F8;
 }
 .home .walk .walk-img {
   width: 46%;
