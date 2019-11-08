@@ -1,3 +1,16 @@
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -164,7 +177,6 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
-  background: ;
   background-color: rgba(246, 246, 246, 0.7);
   border-bottom: 1px solid #dee2e6;
   display: flex;
@@ -221,6 +233,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  animation-duration: 2s;
+  animation-name: zoomIn;
 }
 @media (max-width: 500px) {
   .home .space-images {
